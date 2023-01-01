@@ -1,9 +1,23 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-body {
+* {
     font-family: 'Gotham SSM', Tahoma, Verdana, sans-serif;
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+#flex{
+    margin: 10px;
+    text-align: center;
+}
+
+#flex img{
+    padding: auto;
+    width: 256px;
+    border: 5px #00b7ff solid;
+    border-radius: 50%;
 }
