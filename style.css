@@ -3,6 +3,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: 'Segoe HQ', Tahoma, Verdana, monospace;
+h6,
+body {
+    font-family: 'Gotham SSM', Tahoma, Verdana, sans-serif;
 }
