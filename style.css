@@ -13,7 +13,7 @@ header{
 #flex{
     margin: 10px;
     text-align: center;
-    display: inline-flexbox, -ms-inline-flexbox;
+    display: inline, -ms-inline-flexbox;
 }
 
 #flex img{
@@ -24,4 +24,17 @@ header{
 }
 #flex :nth-child(4){
     border-radius: 0%;
+}
+
+#toolbar{
+    text-align: right;
+}
+
+#toolbar button{
+    width: 5pc;
+    height: 5pc;
+}
+#toolbar button img{
+    width: 80%;
+    height: fit-content;
 }
